@@ -1,0 +1,12 @@
+instalar typescript ->
+npm install -g typescript
+iniciar o typescript ->
+tsc --init
+para transpilar ->
+ctrl+shift+b -> escolher build ou watch
+rodar no directorio do ts que quero -> 
+node ./nomedoarquivo.js -> exemplo: node ./app.js
+
+sempre usar o tipo primitivo
+
+bigint está disponivel a partir do es2020, geralmente se usa es2016, mas como dito so vai funcionar no es2020
